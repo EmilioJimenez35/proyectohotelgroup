@@ -1,0 +1,193 @@
+.social-bar{
+    position: fixed;
+    right: 0; /*posiciona a la derecha la barra*/
+    top: 35%; /*casi centra la posicion*/
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100; /*permite que se ubique encima de los elementos en la pagina*/
+}
+.icon{
+color: white;
+text-decoration: none;
+padding: .7rem;
+display: flex;
+transition: all .5s; /*animamos la propiedad*/
+}
+.icon-facebook{
+    background: #2E406E;
+}
+.icon-whatsapp{
+    background: #4AC959;
+}
+.icon-instagram{
+    background: #e00d81;
+
+}
+.icon:first-child{
+    border-radius: 1rem 0 0 0;
+}
+.icon:last-child{
+    border-radius: 0 0 0 1rem;/*para que si se agregan mas redes sociales no haga falta marcarles un radio, ya lo tendran por defecto*/
+}
+.icon:hover {
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0,0.42);
+}
+
+
+h2{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    display: block;
+    
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color:rgb(212, 123, 6) ;
+    font-family: "Playfair Display", serif;
+    position: relative;
+    text-transform: uppercase;
+    
+    margin-bottom: 0%;
+    margin-top: 5%;
+    text-align: center;
+    border-bottom: solid chocolate 5px;
+    margin-right: 80px;
+    width: 100%;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    display: block;
+   
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color:rgb(212, 123, 6) ;
+    font-family: "Playfair Display", serif;
+    position: relative;
+    text-transform: uppercase;
+   
+    margin-bottom: 5%;
+    margin-top: 0%;
+    text-align: center;
+    border-bottom: solid chocolate 5px;
+    margin-right: 80px;
+    width: 100%;
+}
+
+h4{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    display: block;
+    
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color:rgb(212, 123, 6) ;
+    font-family: "Playfair Display", serif;
+    position: relative;
+    text-transform: uppercase;
+   
+    margin-bottom: 5%;
+    margin-top: 5%;
+    text-align: center;
+    border-bottom: solid chocolate 5px;
+    
+    width: 100%;
+}
+
+h7{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    display: block;
+   
+   
+    color:rgb(212, 123, 6) ;
+    font-family: "Playfair Display", serif;
+    position: relative;
+    text-transform: uppercase;
+   
+    margin-bottom: 5%;
+    margin-top: 5%;
+    text-align: center;
+    border-bottom: solid chocolate 5px;
+    width: 100%;
+    
+}
+.card-title{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+.card-text{
+    text-align: center;
+}
+
+
+.btn{
+    cursor: pointer;
+    
+}
+
+.card-body{
+    text-align: center;
+}
+
+.modal-body{
+    text-align: start;
+}
+
+.card:hover{
+    background: #b69100;
+}
+
+
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; } }
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; }
+
+    .carousel-item {
+        max-height: 540px;
+        width: 100%;
+        position: relative;
+
+    }
+
+    .new-caption {
+        position: absolute;
+        width: 100%;
+        background-color: rgba(209, 115, 8, 0.774);
+        bottom: -6%;
+        padding: 20px 0;
+
+    }
+
+    body {
+        background-color: lightgray;
+
+    }
+
+    nav {
+        background-color: white;
+
+    }
+
+    .card-deck {
+        width: 100%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+
+
+    }
+    
